@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Markup/Margin Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Markup/Margin Calculator</h1>
+    <label for="sellingPrice">Harga Jual: $</label>
+    <input type="number" id="sellingPrice"><br><br>
+    
+    <label for="cost">Kos: $</label>
+    <input type="number" id="cost"><br><br>
+    
+    <button onclick="calculateMarkupAndMargin()">Calculate</button><br><br>
+    
+    <p>Margin Untung: <span id="marginUntung">0.00%</span></p>
+    <p>Markup Untung: <span id="markupUntung">0.00%</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
